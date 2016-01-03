@@ -1,0 +1,53 @@
+{
+  // The plugin looks for a .jshintrc file in the same directory as the source
+  // file you're prettifying (or any directory above if it doesn't exist or in
+  // your home folder if everything else fails) and uses those options along
+  // the default ones.
+
+  // Details: https://github.com/victorporof/Sublime-JSHint#using-your-own-jshintrc-options
+  // Example: https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+  // Documentation: http://www.jshint.com/docs/options/
+
+  // Enforcing
+  "bitwise": false
+  , "curly": true
+  , "eqeqeq": true
+  , "forin": true
+  , "indent": 2
+  , "newcap": true
+  , "noarg": true
+  , "plusplus": false
+  , "quotmark": "single"
+  , "undef": true
+  , "unused": true
+
+  // Relaxing
+  , "asi": false
+  , "boss": true
+  , "eqnull": true
+  , "esnext": true
+  , "evil": false
+  , "globalstrict": true
+  , "lastsemic": false
+  , "laxcomma" : true
+  , "maxdepth": false
+  , "multistr": false
+  , "sub": true
+  , "validthis": true
+
+  // Environments
+  , "browser": true
+  , "node": true
+
+  // Globals
+  , "globals": {
+    "$": true
+    , "angular": true
+    , "document": true
+    , "jquery": true
+    , "navigator": true
+    , "tracking": true
+    , "window": true
+  }
+
+}
