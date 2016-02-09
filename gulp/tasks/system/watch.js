@@ -7,7 +7,7 @@
 
   const path = require('./../../gulp-paths.js');
 
-  const reload = init.load.browserSync.reload;
+  const reload = init.server.reload;
 
   const task = require('./../../gulp-tasks.js');
 
